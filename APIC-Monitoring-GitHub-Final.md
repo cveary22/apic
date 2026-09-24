@@ -1,9 +1,12 @@
 # API Connect Monitoring
 
-A reference guide for monitoring IBM API Connect components, subsystem health, pod availability, resource usage, and supporting monitoring solutions.
+This document provides monitoring recommendations for IBM API Connect deployments running on OpenShift.
 
-> [!NOTE]
-> This document is intended to be maintained as a living reference. Monitoring thresholds should be based on observed normal usage in the target environment.
+
+The goal is to help teams establish a practical baseline monitoring strategy using native OpenShift health checks, API Connect APIs, and basic alerting capabilities. It focuses on the most valuable components, alerts, and health indicators to monitor, particularly for environments that do not have a dedicated observability platform such as Instana or Dynatrace.
+
+
+This guide is not intended to be a comprehensive monitoring solution. Instead, it provides a starting point for identifying subsystem health issues, resource constraints, availability concerns, and critical runtime components within an API Connect deployment.
 
 ## Table of Contents
 
